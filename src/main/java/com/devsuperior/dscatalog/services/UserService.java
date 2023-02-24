@@ -4,8 +4,6 @@ import java.util.Optional;
 
 import javax.persistence.EntityNotFoundException;
 
-import org.hibernate.annotations.common.util.impl.LoggerFactory;
-import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.EmptyResultDataAccessException;
@@ -31,9 +29,7 @@ import com.devsuperior.dscatalog.services.exceptions.ResourceNotFoundException;
 
 @Service
 public class UserService implements UserDetailsService{
-	
-	private static Logger logger = (Logger) LoggerFactory.logger(UserService.class);
-	
+		
 	@Autowired
 	private UserRepository repository;
 	
@@ -107,10 +103,8 @@ public class UserService implements UserDetailsService{
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		User user = repository.findByEmail(username);
 		if (user == null) {
-			logger.error("User not found: " + user);
 			throw new UsernameNotFoundException("Email not found");
 		}	
-		logger.info("User found: " + user);
 		return user;
 	}	
 }
