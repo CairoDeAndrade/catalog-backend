@@ -38,4 +38,4 @@ build/
 .metadata
 
 #Sensible 
-src\main\resources\application-dev.properties
+*.properties
