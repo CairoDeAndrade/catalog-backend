@@ -15,5 +15,7 @@ Para acessar o desing completo clique <a href="https://www.figma.com/file/1n0aif
 - JPA, Hibernate
 - H2
 - Postman
-- Consultas SQL e JPQL utilizando a JPA
+- Consultas e N + 1 consultas JPQL
+- Validação com Bean Validation
+- Testes automatizados com JUnit
 
