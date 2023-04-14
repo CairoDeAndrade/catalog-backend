@@ -1,4 +1,4 @@
-# Catalog RSET API
+# Catalog REST API
 API REST desenvolvida junto ao curso da DevSuperior. O projeto consiste no backend para um catálogo de produtos eletrônicos com suas respectivas categorias. 
 o sistema permite que o cliente possa buscar e filtrar os produtos conforme sua necessidade, sendo a filtragem por produto ou categoria.
 
