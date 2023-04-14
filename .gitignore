@@ -12,6 +12,7 @@ target/
 .settings
 .springBeans
 .sts4-cache
+.metadata
 
 ### IntelliJ IDEA ###
 .idea
@@ -34,8 +35,5 @@ build/
 
 .DS_Store
 
-
-.metadata
-
-#Sensible 
+### Sensible data ### 
 *.properties
