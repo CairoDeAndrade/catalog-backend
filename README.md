@@ -13,7 +13,8 @@ Para acessar o desing completo clique <a href="https://www.figma.com/file/1n0aif
 - Spring Boot
 - Spring Security (OAuth2, Token JWT)
 - JPA, Hibernate
-- H2
+- PostgreSQL
+- H2 (banco para testes)
 - Postman
 - Consultas e N + 1 consultas JPQL
 - Validação com Bean Validation
